@@ -4,7 +4,7 @@ import sys,os
 HW_S = 2
 K = 3
 Tn = 2
-Tm = 60
+Tm = 32
 Tr = 26
 Tc = 26
 MAX_BETA_LENGTH = 1024
