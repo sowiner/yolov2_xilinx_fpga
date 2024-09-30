@@ -13,6 +13,11 @@ test_i16:
 	cp weight_reorg_ap16.bin ../../hls/src_int16
 	cp weights_ap16_* ../../hls/src_int16
 	cp iofm_Q.bin ../../hls/src_int16
+cp_bin:
+	cp ../01_ExtractWeightAndBiasFromDarknet/darknet/weights.bin .
+	cp ../01_ExtractWeightAndBiasFromDarknet/darknet/bias.bin .
+clean_bin:
+	rm -rf *.bin
 clean:
 	rm -rf yolo_last_layer_output.txt
 	rm -rf *.png
