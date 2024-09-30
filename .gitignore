@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
+=======
+
+# Local files
+*.bin
+yolov2.weights
+>>>>>>> 7e43db1 (fixed)
