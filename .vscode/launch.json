@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/ssd/development/fpga/yolov2_xilinx_fpga/scripts",
-      "program": "/Users/ssd/development/fpga/yolov2_xilinx_fpga/scripts/build/Debug/outDebug"
+      "cwd": "/Users/ssd/development/fpga/yolov2_xilinx_fpga/scripts/aes_test",
+      "program": "/Users/ssd/development/fpga/yolov2_xilinx_fpga/scripts/aes_test/build/Debug/outDebug"
     }
   ]
 }
